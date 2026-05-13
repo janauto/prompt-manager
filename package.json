@@ -1,0 +1,34 @@
+{
+  "name": "prompt-manager",
+  "version": "1.0.0",
+  "description": "专为 AI 辅助编程设计的 Prompt 模板管理工具",
+  "author": "linxiansheng",
+  "license": "MIT",
+  "icon": "extension-icon.png",
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.104.16",
+    "@raycast/utils": "^2.2.4",
+    "ejs": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.6.0"
+  },
+  "raycast": {
+    "commands": [
+      {
+        "name": "search-prompts",
+        "title": "Search Prompts",
+        "subtitle": "Prompt Manager",
+        "description": "搜索并使用 Prompt 模板",
+        "mode": "view"
+      }
+    ]
+  }
+}
